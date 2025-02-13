@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #010100;
+    color: #fffffe;
+}
+
+nav{
+    height: 3vw;
+    width: 100%;
+    background-color: cyan;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
