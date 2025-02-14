@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: #010100;
-    color: #fffffe;
+    background-color:  #FEFEFF;
+    color:#010100;
 }
 
 nav{
@@ -24,13 +24,15 @@ nav{
 
 nav button{
     margin-right: 2vw;
-    height: 2vw;
-    width: 4vw;
-    font-size: 1vw;
+    height: 2.5vw;
+    width: 6vw;
+    font-size: 0.9vw;
     background-color: #010100;
     color: #fffffe;
     cursor: pointer;
     border-radius: 10px;
+    text-transform: capitalize;
+    font-family: "panchang", sans-serif;
 }
 
 #pg1_video{
@@ -49,42 +51,67 @@ nav button{
     font-size: 23vw;
     top: 78%;
     line-height: 0.74;
+    color: #E3E3E2;
     font-family: "panchang", sans-serif;
 }
 
 #pg1_video video{
     height: 100%;
-    width: 100%;
+    width: 96%;
     object-fit: cover;
     margin-top: 0.5vw;
     border-radius: 10px;
-}
+    margin-left: 1.3vw;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
 
-#text_area{
+
+#text_area {
     height: 90vh;
     width: 99%;
+    display: flex;
     justify-self: center;
     text-align: center;
-    margin-top: 10vw;
+    padding-top: 10vw;
+/*     background-color: aquamarine;
+ */}
+
+#text_area_left{
+    height: 100%;
+    width: 50%;
+    margin-top: -3.5VW;
 }
 
-#text_area h1{
-    font-size: 2.8vw;
-    padding: 1vw;
-    font-family: 'chillax', sans-serif;
-    text-transform: uppercase;
-}
-
-#text_area h2{
-    font-size: 1.8vw;
-    padding-left: 1vw;
-    color: #555758;
-    font-family: 'switzer', sans-serif;
-    font-weight: 400;
+#text_area_left h1{
+    font-size: 3.5vw;
+    padding: 0.5vw;
+    font-family: 'outfit', sans-serif;
     text-transform: capitalize;
 }
 
+#text_area_left h2{
+    font-size: 1.3vw;
+    padding-left: 1vw;
+    color: #535858;
+    font-family: 'chillax', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 1.5vw;
+}
 
+#text_area_right{
+    height: 100%;
+    width: 45%;
+    border-radius: 15px;
+    margin-top: -5VW;
+    background-image: URL(/zudio_dummy/1_faf7d9b1-6665-46f8-ae88-ab0b0f7c3287.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: #101011 5px 5px, #555 10px 10px,  #878780  15px 15px, #aaa 20px 20px, #fefeff 25px 25px;
+}
+
+#page2{
+    column-count: 3;
+}
 
 
 
