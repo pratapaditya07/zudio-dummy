@@ -109,12 +109,40 @@ nav button{
     box-shadow: #101011 5px 5px, #555 10px 10px,  #878780  15px 15px, #aaa 20px 20px, #fefeff 25px 25px;
 }
 
-#page2{
-    column-count: 3;
+#imageqw{
+    columns: 350px;
+    height: 142.5vh;
+    background-color: #101011;
+    border-radius: 20px;
 }
 
+#page2 #imageqw img{
+    margin: 1vw;
+    width: 90%;
+    border-radius: 20px;
+}
 
+#ani{
+    height: 142.5vh;
+    width: 100%;
+    position: absolute;
+    background-color:transparent;
+}
 
+#ani h1{
+    position: absolute;
+    display: none;
+    font-size: 15vw;
+    top: 50%;
+    left: 50%;
+    color: #707073;
+    font-family: "clash Display", sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+#ani h1:nth-child(1){
+    font-size: 20vw ;
+}
 
 
 
