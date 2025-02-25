@@ -1,159 +1,49 @@
-gsap.to("#pg1_video h1" , {
-    fontSize: "2.5vw",
-    top: "0.8vw",
-    left: "0vw",
-    color: "#101000",
+gsap.from("#hero h1" , {
+    fontSize : "20vw",
+    scrollTrigger:{
+        trigger: "#hero h1",
+        scroll:"main",
+        markers : true,
+        start : "top 31",
+        end : "top -150%",
+        scrub : 2,
+        pin: "main"
+    }
+})
+
+gsap.to("#circle",{
+    height: " 100vh",
+    width: "100%",
+    borderRadius : "20px",
+    scrollTrigger:{
+        trigger: "#circle",
+        scroll: "main",
+        markers : true,
+        start : "top -45%",
+        end :"top -165%",
+        scrub: 2
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* gsap.from("#hero h1" , {
+    fontSize: "20.5vw",
     scrollTrigger: {
-        trigger: "#pg1_video h1",
-        scroll: "#pg1_video",
-        start: "top 75.9%",
-        end: "top -15%",
+        trigger: "#hero h1",
+        scroll: "#hero",
         scrub: 1,
-        pin: "#pg1_video"
     }
 })
-
-/* gsap.to("#page2 img" , {
-    height : "100%",
-    scrollTrigger:{
-        trigger: "#page2 img",
-        start: "top 75.9%",
-        end: "top -15%",
-        scrub: 1,
-        pin: "#page2"
-    }
-}) */
-
-/* gsap.to("#eng",{
-    display: "block",
-    scrollTrigger:{
-        trigger: "#eng",
-        scroll:"#ani",
-        markers:true,
-        start: "top 25%",
-        end: "top 20%",
-        scrub:1,
-        pin: "#page2"
-    }
-})
-
-gsap.to("#eng",{
-    display: "none",
-    scrollTrigger:{
-        trigger: "#eng",
-        scroll:"#ani",
-        markers:true,
-        start: "top 20%",
-        end: "top -100000%",
-        scrub:1,
-        pin: "#page2"
-    }
-})  */
-
-gsap.to("#urdu",{
-    display: "block",
-    color: "#e3e3ee",
-    scrollTrigger:{
-        trigger: "#urdu",
-        scroll:"#ani",
-        markers:true,
-        start: "top 25%",
-        end: "top 20%",
-        scrub:1,
-        pin: "#page2"
-    }
-})
-
-/* gsap.to("#urdu",{
-    display: "none",
-    scrollTrigger:{
-        trigger: "#urdu",
-        scroll:"#ani",
-        markers:true,
-        start: "top 15%",
-        end: "top -100000%",
-        scrub:1,
-        pin: "#page2"
-    }
-}) */
-
-/* gsap.to("#tamil",{
-    display: "block",
-    scrollTrigger:{
-        trigger: "#tamil",
-        scroll:"#ani",
-        markers:true,
-        start: "top 15%",
-        end: "top 10%",
-        scrub:1,
-        pin: "#page2"
-    }
-})
-
-gsap.to("#tamil",{
-    display: "none",
-    scrollTrigger:{
-        trigger: "#tamil",
-        scroll:"#ani",
-        markers:true,
-        start: "top 10%",
-        end: "top -100000%",
-        scrub:1,
-        pin: "#page2"
-    }
-})
-
-gsap.to("#hin",{
-    display: "block",
-    scrollTrigger:{
-        trigger: "#hin",
-        scroll:"#ani",
-        markers:true,
-        start: "top 10%",
-        end: "top 05%",
-        scrub:1,
-        pin: "#page2"
-    }
-})
-
-gsap.to("#hin",{
-    display: "none",
-    scrollTrigger:{
-        trigger: "#hin",
-        scroll:"#ani",
-        markers:true,
-        start: "top 05%",
-        end: "top -100000%",
-        scrub:1,
-        pin: "#page2"
-    }
-}) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ */
