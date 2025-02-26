@@ -5,16 +5,14 @@
 }
 
 body{
-/*     background-color: #090907;
-    color: #fefeff; */
-    padding: 0.5vw;
+    background-color: #030303;
+    color: #fefeff;
+    padding: 0.45vw;
 }
 
-main{
+#main{
     height: 520vw;
-    border: 2px solid #000;
     border-radius: 20px;
-
 }
 
 nav{
@@ -69,41 +67,50 @@ nav button{
 }
 
 #circle{
-    height: 5px;
-    width: 5px;
-    background-color: #000;
-    border-radius: 50%;
-    justify-self: center;
-    padding: 0.5vw;
+    height: 90vh;
+    width: 100%;
+    padding: 0.1px;
+    display: flex;
+    justify-content: center;    
 }
 
 #inn{
-    height: 90%;
-    width: 90%;
-    background-color: #F1F0F1;
+    height: 15vh;
+    width: 15%;
     border-radius: 18px;
     display: flex;
     overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(5% , 3%);
+    margin: 1vw;
+    margin-left: 2vw;
+    border-radius: 50%;
 }
 
 .card1{
-    background-color: aquamarine;
+    background-color: #686868;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/zudio_dummy/g5.png);
 }
 
 .card2{
-    background-color: rgb(34, 85, 68);
+    background-color: #484848;
+    background-image: url(/zudio_dummy/g3.png);
+
 }
 .card3{
-    background-color: rgb(25, 30, 28);
+    background-color: #1A1A1A;
+    background-image: url(/zudio_dummy/b1.png);
 }
 .card4{
-    background-color: rgb(15, 154, 108);
+    background-color: #484848;
+    background-image: url(/zudio_dummy/girl1.jpg);
+    background-size: cover;
 }
 .card5{
-    background-color: rgb(31, 55, 47);
+    background-color: #686868;
+    background-image: url(/zudio_dummy/b2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card{
@@ -155,7 +162,18 @@ nav button{
     background-color: rgb(41, 140, 110);
 }
 
+#page6 h1{
+    font-size: 10vw;
+    font-family: "outfit";
+}
 
+#inmar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 100%;
+}
 
 
 
