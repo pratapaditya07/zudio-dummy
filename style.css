@@ -11,7 +11,7 @@ body{
 }
 
 #main{
-    height: 520vw;
+    height: 503vw;
     border-radius: 20px;
 }
 
@@ -86,19 +86,20 @@ nav button{
 }
 
 .card1{
-    background-color: #686868;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(/zudio_dummy/g5.png);
 }
 
 .card2{
-    background-color: #484848;
+    border: 2px solid orange;
     background-image: url(/zudio_dummy/g3.png);
 
 }
 .card3{
-    background-color: #1A1A1A;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid crimson;
     background-image: url(/zudio_dummy/b1.png);
 }
 .card4{
@@ -108,6 +109,7 @@ nav button{
 }
 .card5{
     background-color: #686868;
+    border: 2px solid green;
     background-image: url(/zudio_dummy/b2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,18 +164,42 @@ nav button{
     background-color: rgb(41, 140, 110);
 }
 
-#page6 h1{
-    font-size: 10vw;
-    font-family: "outfit";
+#page7{
+    height: 70vh;
+    width: 100%;
+    background-color: #1c1c1c;
+    overflow-y: hidden;
 }
 
-#inmar{
+#newsletter{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
-    width: 100%;
 }
+
+#newsletter input{
+    padding: 0.5vw;
+    font-size: 1.2vw;
+    font-family: "panchang";
+    border-radius: 15px;
+    border: none;
+}
+
+#newsletter button{
+    padding: 0.5vw;
+    font-size: 1.2vw;
+    font-family: "panchang";
+    border-radius: 15px;
+    border: none;
+}
+
+#page7 h1{
+    text-align: center;
+    margin-top: 6.0vw;
+    font-size: 25vw;
+    font-family: "outfit";
+}
+
 
 
 
