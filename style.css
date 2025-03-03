@@ -83,35 +83,32 @@ nav button{
     margin: 1vw;
     margin-left: 2vw;
     border-radius: 50%;
+    border: 2px solid #fefeff;
 }
 
 .card1{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/zudio_dummy/g5.png);
+    background-image: url(/zudio_dummy/bm1.jpg);
 }
 
 .card2{
-    border: 2px solid orange;
+    background-size: cover;
     background-image: url(/zudio_dummy/g3.png);
 
 }
 .card3{
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid crimson;
-    background-image: url(/zudio_dummy/b1.png);
+    background-position: center-top;
+    background-image: url(/zudio_dummy/gm8.jpg);
 }
 .card4{
-    background-color: #484848;
     background-image: url(/zudio_dummy/girl1.jpg);
     background-size: cover;
 }
 .card5{
-    background-color: #686868;
-    border: 2px solid green;
-    background-image: url(/zudio_dummy/b2.png);
-    background-repeat: no-repeat;
+    background-image: url(/zudio_dummy/bm5.jpg);
     background-size: cover;
 }
 
@@ -131,23 +128,138 @@ nav button{
     flex: 3;
 }
 
+#page1withbutton{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    padding: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "panchang";
+    font-weight: 600;
+    border-radius: 15px;
+    position: fixed;
+    top: 49%;
+    right: 1.5%;
+}
+
 
 #page1{
     height: 100vh;
-    width: 100%;
-    background-color: rgb(38, 55, 50);
+    width: 50%;
+    background-color: #fefeff;
+    position: fixed;
+    top: 0%;
+    left:65%;
+    border-radius: 25px;
+    padding-top: 4.5vw;
+    transform: translateX(73%);
+    transition: transform 0.5s ease;
+    box-shadow: #000101 -5px 0px, #1c1a1bfd -10px 0px, #333 -15px 0px, #989899 -20px 0px, #fffefe -25px 0px;
 }
+
+
+.writing{
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: "outfit";
+    background-color: #fefeff;
+    color: #030303;
+    margin-top: 0.5vw;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.writing::after{
+    content: "00";
+    margin-right: 0.5vw;
+    font-size: 0.9vw;
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.writing:hover{
+    background-color: #030303;
+    color: #fefeff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #page2{
     height: 100vh;
     width: 100%;
     background-color: rgb(45, 50, 48);
 }
+
 #page3{
     height: 100vh;
     width: 100%;
-    background-color: rgb(16, 21, 20);
+    background-color: rgb(38, 55, 50);
 }
+
 #page4{
     height: 100vh;
     width: 100%;

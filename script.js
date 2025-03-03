@@ -3,7 +3,6 @@ gsap.from("#hero h1" , {
     scrollTrigger:{
         trigger: "#hero h1",
         scroll:"#main",
-        markers : true,
         start : "top 31",
         end : "top -150%",
         scrub : 2,
@@ -18,13 +17,24 @@ gsap.to("#inn",{
     scrollTrigger:{
         trigger: "#inn",
         scroll: "#main",
-        markers : true,
         start : "top 100%",
         end :"top 10%",
         scrub : 2
     }
 })
 
+const btn = document.querySelector("#menu");
+const page1 = document.querySelector("#page1");
+
+btn.addEventListener("click", () => {
+    if(page1.style.transform === "translateX(0px)")
+        {
+        page1.style.transform = "translateX(73%)";
+        }
+        else{
+            page1.style.transform = "translateX(0px)";  
+        }
+});
 
 
 
