@@ -29,13 +29,26 @@ const page1 = document.querySelector("#page1");
 btn.addEventListener("click", () => {
     if(page1.style.transform === "translateX(0px)")
         {
-        page1.style.transform = "translateX(73%)";
+        page1.style.transform = "translateX(74%)";
         }
         else{
             page1.style.transform = "translateX(0px)";  
         }
 });
 
+gsap.to("#page4 h1", {
+    transform: "translateX(-70%)",
+    scrollTrigger: {
+        trigger: "#page4",
+        scroll: "#page4",
+        markers: true,
+        start: "top 0", 
+        end: "top -200%",
+        scrub: 2,
+        pin: true
+    }
+
+})
 
 
 
