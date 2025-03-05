@@ -8,10 +8,11 @@ body{
     background-color: #030303;
     color: #fefeff;
     padding: 0.45vw;
+    overflow-x: hidden;
 }
 
 #main{
-    height: 483vw;
+    height: fit-content;
     border-radius: 20px;
 }
 
@@ -56,7 +57,7 @@ nav button:hover{
     font-size: 2.5vw;
     position: absolute;
     z-index: 2;
-    color: #F1F0F1;
+    color: #FFFEFE;
     margin: 1.2vw;
 }
 
@@ -150,6 +151,7 @@ nav button:hover{
     position: fixed;
     top: 49%;
     left: 1.5%;
+    z-index: 2;
 }
 
 #menu:hover{
@@ -290,40 +292,46 @@ nav button:hover{
 #page3{
     height: 100vh;
     width: 100%;
-    background-color: rgb(38, 55, 50);
+    background-color: #020302;
 }
 
 #page4{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
-    padding: 10vw 10vw ;
-    background-color: #000101;
+    padding: 5vw 5vw ;
+    background-image: url(/zudio_dummy/group1.jpg) ;
+    z-index: -1;
 }
 #page4 h1{
-    font-size: 30vw;
-    width: 230%;
+    font-size: 28.5vw;
+    font-weight: 500;
+    letter-spacing: -1.2vw;
+    width: 100%;
     font-family: "chillax";
-    text-transform: uppercase;
+    margin-left: 10vw;
 }
 
 
-#page7{
-    height: 20vh;
+#page5{
+    height: 29vh;
     width: 100%;
-    background-color: #1c1c1c;
+    background: linear-gradient(to top,  #020302, #020302);
     overflow-y: hidden;
+    z-index: 1;
 }
 
 #newsletter{
+    height: 9vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1vw;
 }
 
 #newsletter input{
     padding: 0.5vw;
     font-size: 1.2vw;
-    font-family: "panchang";
+    font-family: "chillax";
     border-radius: 15px;
     border: none;
 }
@@ -331,19 +339,72 @@ nav button:hover{
 #newsletter button{
     padding: 0.5vw;
     font-size: 1.2vw;
-    font-family: "panchang";
+    font-family: "chillax";
+    font-weight: 500;
     border-radius: 15px;
     border: none;
 }
 
-#page7 h1{
-    text-align: center;
-    margin-top: 6.0vw;
-    font-size: 25vw;
-    font-family: "outfit";
+
+#newsletter button:hover{
+    background-color: #030303;
+    color: #F1F0F1;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 
+#page5 h2{
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: "chillax";
+}
+
+#footer{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "chillax";
+}
+
+#footer_left{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer_mid{
+    height: 100%;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    background-image: url(/zudio_dummy/gm2.jpg);
+    background-size: cover;
+    border-radius: 25px;
+}    
+
+#footer_mid h1{
+    font-size: 8vw;
+    font-family: "chillax";
+
+}
+
+#footer_right{  
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
 

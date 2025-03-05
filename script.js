@@ -41,7 +41,6 @@ gsap.to("#page4 h1", {
     scrollTrigger: {
         trigger: "#page4",
         scroll: "#page4",
-        markers: true,
         start: "top 0", 
         end: "top -200%",
         scrub: 2,
