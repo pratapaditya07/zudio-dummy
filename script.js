@@ -37,6 +37,22 @@ btn.addEventListener("click", () => {
 });
 
 
+
+const btn2 = document.querySelector("#signup");
+const signinn = document.querySelector("#signinn");
+
+btn2.addEventListener("click",()=>{
+    if(signinn.style.transform === "translateX(0px)")
+    {
+        signinn.style.transform = "translateX(-100%)";
+    }
+    else{
+        signinn.style.transform = "translateX(0px)";
+    }
+})
+
+
+
     gsap.to("#page3 img", {
         height: "30vh",
         width : "30vh",

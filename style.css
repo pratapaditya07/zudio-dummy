@@ -142,6 +142,7 @@ nav button:hover{
     justify-content: center;
     align-items: center;
 }
+
 #menu{
     padding: 0.5vw;
     font-size: 0.9vw;
@@ -173,7 +174,7 @@ nav button:hover{
     border-radius: 25px;
     padding-top: 4.5vw;
     transform: translateX(74%);
-    transition: transform 0.5s ease;
+    transition: transform 800ms ease;
     box-shadow: #000101 -5px 0px, #1c1a1bfd -10px 0px, #333 -15px 0px, #989899 -20px 0px, #fffefe -25px 0px;
 }
 
@@ -202,6 +203,92 @@ nav button:hover{
     color: #fefeff;
     transition: 0.3s ease-in-out;
 }
+
+#signin{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signinn{
+    height: 100vh;
+    width: 50%;
+    background-color: #fefeff;
+    position: fixed;
+    top: 0%;
+    left:0%;
+    border-radius: 25px;
+    padding-top: 4.5vw;
+    transform: translateX(-100%);
+    transition: transform 800ms ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form_inputs{
+    padding: 1vw;
+    font-size: 0.9vw;
+    font-family: "chillax";
+    font-weight: 600;
+    border-radius: 15px;
+    border: 0.1px solid #030303;
+    margin-top: 1.5vw;
+}
+#signinn h1{
+    font-size: 5vw;
+    font-family: "chillax";
+    font-weight: 700;
+    color: #030303;
+    display: flex;
+    justify-content: center;
+}
+
+#signinn button{
+    padding: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "chillax";
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+#signinn button:hover{
+    background-color: #030303;
+    color: #F1F0F1;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #page2{
