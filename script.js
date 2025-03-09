@@ -59,7 +59,6 @@ btn2.addEventListener("click",()=>{
         scrollTrigger:{
             trigger: "#page3",
             scroll: "#main",
-            markers : true,
             start : "top 0%",
             end : "top -200%",
             pin : "#page3",
