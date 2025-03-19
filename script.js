@@ -7,6 +7,7 @@ gsap.from("#hero h1" , {
         end : "top -150%",
         scrub : 2,
         pin : "#hero"
+        
     }
 })
 
